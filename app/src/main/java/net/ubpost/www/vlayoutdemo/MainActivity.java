@@ -11,11 +11,12 @@ import android.widget.Button;
  * 1-引入依赖
  * 2-RecyclerView使用VirtualLayoutManager
  * 3-创建自定义Adapter，继承自DelegateAdapter，或者继承自VirtualLayoutAdapter（均来自V-Layout的Adapter）
- * 4-创建一个或多个LayoutHelper，实现响应的布局
+ * 4-创建一个或多个LayoutHelper，实现相应的布局
  * 5-自定义Adapter中使用LayoutHelper，有多少个LayoutHelper就新建多少个自定义Adapter
  * 6-创建List<DelegateAdapter.Adapter>，将新建的自定义Adapter全部添加到list
  * 7-创建DelegateAdapter，通过delegateAdapter.setAdapters，将上述包含了多个自定义Adapter的list设置进去
  * 8-RecyclerView使用DelegateAdapter适配器：recyclerView.setAdapter(delegateAdapter);
+ * 9-完成多布局的展示
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
