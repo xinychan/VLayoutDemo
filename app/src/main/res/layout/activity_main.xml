@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.ubpost.www.vlayoutdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn01_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="01 线性布局"/>
+
+    <Button
+        android:id="@+id/btn02_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="02 网格布局"/>
+
+    <Button
+        android:id="@+id/btn03_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="03 固定布局"/>
+
+    <Button
+        android:id="@+id/btn04_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="04 可选显示的固定布局"/>
+
+    <Button
+        android:id="@+id/btn05_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="05 浮动布局"/>
+
+    <Button
+        android:id="@+id/btn06_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="06 栏格布局"/>
+
+    <Button
+        android:id="@+id/btn07_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="07 通栏布局"/>
+
+    <Button
+        android:id="@+id/btn08_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="08 一拖N布局"/>
+
+    <Button
+        android:id="@+id/btn09_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="09 吸边布局"/>
+
+    <Button
+        android:id="@+id/btn10_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="10 瀑布流布局"/>
+</LinearLayout>
